@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/react-portfolio-website/static/css/main.53a4b391.css",
+    "main.js": "/react-portfolio-website/static/js/main.42acf177.js",
+    "static/media/arcadegame.jpg": "/react-portfolio-website/static/media/arcadegame.97ddf8b7558a82c61205.jpg",
+    "static/media/Machinemodel.jpg": "/react-portfolio-website/static/media/Machinemodel.f65ef85c4f6b34bffa5f.jpg",
+    "static/media/portfolio2.jpg": "/react-portfolio-website/static/media/portfolio2.9099fe2ca5c8bc7096cf.jpg",
+    "static/media/cv.pdf": "/react-portfolio-website/static/media/cv.6aec16155ba804800c1e.pdf",
+    "static/media/me.jpeg": "/react-portfolio-website/static/media/me.80b7e61f7780a8ac8139.jpeg",
+    "index.html": "/react-portfolio-website/index.html",
+    "main.53a4b391.css.map": "/react-portfolio-website/static/css/main.53a4b391.css.map",
+    "main.42acf177.js.map": "/react-portfolio-website/static/js/main.42acf177.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53a4b391.css",
+    "static/js/main.42acf177.js"
+  ]
+}
