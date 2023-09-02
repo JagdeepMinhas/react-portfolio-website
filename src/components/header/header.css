@@ -48,16 +48,18 @@ header {
     background: linear-gradient(var(--color-primary), transparent);
     width: 22rem;
     height: 30rem;
-  
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 4rem;
     margin-bottom: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-   
+    transition: all ease 1s;
 }
 
+.me:hover {
+    scale: 1.1;
+}
 
 .scroll__down {
     position: absolute;
@@ -73,7 +75,7 @@ header {
 
 @media screen and (max-width:1024px) {
     header {
-        height: 68vh;
+        height: 100vh;
     }
 }
 

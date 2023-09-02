@@ -1,46 +1,89 @@
-.projects__container{
+.projects__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5em;
 }
-.projects_item{
+
+.projects_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     background: var(--color-bg-variant);
     padding: 1.2rem;
     border-radius: 2rem;
-    border: 1 px solid transparent;
+    border: 3px solid transparent;
     transition: var(--transition);
 }
-.projects_item:hover{
+
+.projects_item:hover {
     border-color: var(--color-primary-variant);
     background: transparent;
+    ;
+}
 
-}
-.projects__item-image{
-    border-radius: 1.5rem;
-    overflow: hidden;
-}
-.projects_item h3{
-    margin: 1.2rem 0 2rem;
-}
-.project__item-cta{
+.projects__item-image {
+    width: 100%;
+    /* Ensure the image container takes full width */
+    height: 200px;
+    /* Set a fixed height for uniform display */
     display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 1.5rem;
+}
+
+.projects_item img {
+    width: auto;
+    height: 100%;
+    /* Make the image take full height of the container */
+    object-fit: cover;
+    /* Resize image to cover the container */
+}
+
+.project__item-cta {
+    display: flex;
+    /* Stack buttons vertically */
+    align-items: center;
+    /* Center buttons horizontally */
     gap: 1rem;
-    margin-bottom: 1rem;
-}
-/* Media queries (devices with medium screen)*/
-@media screen and (max-width:1024px) {
-   .projects__container{
-       grid-template-columns: 1fr 1fr;
-       gap:1.2rem;
-   } 
+    margin-top: 1rem;
+    /* Adjust margin from bottom to top */
 }
 
 
-/* Media queries (devices with small screen)*/
+/* Media queries (devices with medium screen) */
 
-@media screen and (max-width:600px) {
-  .projects__container{
-      grid-template-columns: 1fr;
-      gap: 1rem;
-  }
+@media screen and (max-width: 1024px) {
+    .projects__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+    .project__item-cta {
+        flex-direction: column;
+        /* Stack buttons vertically */
+        align-items: center;
+        /* Center buttons horizontally */
+        margin-top: auto;
+        /* Push buttons to the bottom */
+    }
+}
+
+
+/* Media queries (devices with small screen) */
+
+@media screen and (max-width: 600px) {
+    .projects__container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    .project__item-cta {
+        flex-direction: column;
+        /* Stack buttons vertically */
+        align-items: center;
+        /* Center buttons horizontally */
+        margin-top: auto;
+        /* Push buttons to the bottom */
+    }
 }
