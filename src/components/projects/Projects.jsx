@@ -84,7 +84,7 @@ const Projects = () => {
       <h2>Portfolio</h2>
       <div className='container projects__container'>
         {
-          data.map(({ id, image, title, github, deom }) => {
+          data.map(({ id, image, title, github, demo }) => {
             return (
               <article key ={id} className='projects_item'>
                 <div className='projects__item-image'>
@@ -93,7 +93,7 @@ const Projects = () => {
                 <h3> {title}</h3>
                 <div className='project__item-cta'>
                   <a href={github} className='btn' target="_blank">Github</a>
-                  <a href={deom} className='btn btn-primary' target="_blank">Live Demo</a>
+            
                 </div>
               </article>
             )
