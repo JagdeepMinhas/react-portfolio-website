@@ -1,6 +1,6 @@
 .projects__container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-auto-columns: 1fr;
     gap: 2.5em;
     max-height: 600px;
@@ -17,7 +17,7 @@
     text-align: center;
     background: var(--color-bg-variant);
     margin: 15px;
-    padding: 1.2rem;
+    padding: 1.3rem;
     border-radius: 2rem;
     border: 3px solid transparent;
     transition: var(--transition);
