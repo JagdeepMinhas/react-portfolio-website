@@ -31,7 +31,10 @@
     margin-top: 0.7rem;
     display: inline-block;
     font-size: 0.8rem;
+    color: white;
+    transition: all ease 1s;
 }
+
 /**/
 form{
     display: flex;
