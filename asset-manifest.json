@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio-website/static/css/main.056be6bc.css",
-    "main.js": "/react-portfolio-website/static/js/main.730d86db.js",
+    "main.css": "/react-portfolio-website/static/css/main.f50783ce.css",
+    "main.js": "/react-portfolio-website/static/js/main.30ebe8f7.js",
     "static/media/arcadegame.jpg": "/react-portfolio-website/static/media/arcadegame.97ddf8b7558a82c61205.jpg",
     "static/media/Machinemodel.jpg": "/react-portfolio-website/static/media/Machinemodel.f65ef85c4f6b34bffa5f.jpg",
     "static/media/portfolio2.jpg": "/react-portfolio-website/static/media/portfolio2.9099fe2ca5c8bc7096cf.jpg",
@@ -14,11 +14,11 @@
     "static/media/ClassificationProject.jpg": "/react-portfolio-website/static/media/ClassificationProject.41bf03c032537afe4167.jpg",
     "static/media/Deny and Conquer.jpg": "/react-portfolio-website/static/media/Deny and Conquer.cc09286893aeed799f5e.jpg",
     "index.html": "/react-portfolio-website/index.html",
-    "main.056be6bc.css.map": "/react-portfolio-website/static/css/main.056be6bc.css.map",
-    "main.730d86db.js.map": "/react-portfolio-website/static/js/main.730d86db.js.map"
+    "main.f50783ce.css.map": "/react-portfolio-website/static/css/main.f50783ce.css.map",
+    "main.30ebe8f7.js.map": "/react-portfolio-website/static/js/main.30ebe8f7.js.map"
   },
   "entrypoints": [
-    "static/css/main.056be6bc.css",
-    "static/js/main.730d86db.js"
+    "static/css/main.f50783ce.css",
+    "static/js/main.30ebe8f7.js"
   ]
 }
