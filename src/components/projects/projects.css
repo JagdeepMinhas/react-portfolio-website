@@ -12,6 +12,7 @@
 
 .projects_item {
     display: flex;
+
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -25,13 +26,14 @@
 
 .projects_item  h3{
         padding-top: 10px;
+        padding-bottom: 10px;
    
 }
 .projects_item  a {
     background-color: white;
     border: 1px solid;
-}
 
+}
 
 
 .projects_item:hover {
@@ -65,11 +67,14 @@
 
 .project__item-cta {
     display: flex;
+  
     /* Stack buttons vertically */
     align-items: center;
     /* Center buttons horizontally */
     gap: 1rem;
-    margin-top: 1rem;
+    margin-top: auto;
+
+    margin-bottom: 1rem;
     /* Adjust margin from bottom to top */
 }
 
