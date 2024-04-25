@@ -1,13 +1,16 @@
 {
   "files": {
     "main.css": "/react-portfolio-website/static/css/main.f50783ce.css",
-    "main.js": "/react-portfolio-website/static/js/main.30ebe8f7.js",
+    "main.js": "/react-portfolio-website/static/js/main.9e152682.js",
     "static/media/arcadegame.jpg": "/react-portfolio-website/static/media/arcadegame.97ddf8b7558a82c61205.jpg",
     "static/media/Machinemodel.jpg": "/react-portfolio-website/static/media/Machinemodel.f65ef85c4f6b34bffa5f.jpg",
+    "static/media/handyman.jpg": "/react-portfolio-website/static/media/handyman.4383843086311941f6cb.jpg",
     "static/media/portfolio2.jpg": "/react-portfolio-website/static/media/portfolio2.9099fe2ca5c8bc7096cf.jpg",
+    "static/media/flashcards.jpg": "/react-portfolio-website/static/media/flashcards.e3d9c89a9317d32c48b2.jpg",
+    "static/media/recipe.png": "/react-portfolio-website/static/media/recipe.c11521bc0ea7acfaec3d.png",
     "static/media/9MenMorris.jpg": "/react-portfolio-website/static/media/9MenMorris.2bf85b3a24ef01668f73.jpg",
     "static/media/CShell.jpg": "/react-portfolio-website/static/media/CShell.fa902bf23e8324f08699.jpg",
-    "static/media/cv.pdf": "/react-portfolio-website/static/media/cv.ca9cf7c300a1ff171997.pdf",
+    "static/media/cv.pdf": "/react-portfolio-website/static/media/cv.6e843f63783efa70ddb2.pdf",
     "static/media/SweepAi.jpg": "/react-portfolio-website/static/media/SweepAi.55fc42b9b45e940cdd97.jpg",
     "static/media/me.jpeg": "/react-portfolio-website/static/media/me.80b7e61f7780a8ac8139.jpeg",
     "static/media/MultiThreadAudioMixer.jpg": "/react-portfolio-website/static/media/MultiThreadAudioMixer.b690d5ad9c8e503859a1.jpg",
@@ -15,10 +18,10 @@
     "static/media/Deny and Conquer.jpg": "/react-portfolio-website/static/media/Deny and Conquer.cc09286893aeed799f5e.jpg",
     "index.html": "/react-portfolio-website/index.html",
     "main.f50783ce.css.map": "/react-portfolio-website/static/css/main.f50783ce.css.map",
-    "main.30ebe8f7.js.map": "/react-portfolio-website/static/js/main.30ebe8f7.js.map"
+    "main.9e152682.js.map": "/react-portfolio-website/static/js/main.9e152682.js.map"
   },
   "entrypoints": [
     "static/css/main.f50783ce.css",
-    "static/js/main.30ebe8f7.js"
+    "static/js/main.9e152682.js"
   ]
 }
